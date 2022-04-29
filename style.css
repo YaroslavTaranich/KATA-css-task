@@ -1,5 +1,6 @@
-@import url(./css-reset.css);
-@import url(./fonts/fonts.css);
+@import url(./css/css-reset.css);
+@import url(./css/fonts.css);
+@import url(./css/social.css);
 
 html,
 button,
@@ -18,7 +19,8 @@ body{
     padding: 70px 0;
 }
 .registration-section{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     background: #fff;
@@ -31,7 +33,7 @@ body{
     width: 760px;
     position: relative;
 }
-.registration-section__pic__logo{
+.registration-section__logo{
     width: 10rem;
     position: absolute;
     left: 4rem;
@@ -53,42 +55,10 @@ body{
 }
 
 
-.registration-form__social{
+.registration-form__socials{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 50px 0;
-}
-
-.registration-form__social__link,
-.registration-form__social__link:link,
-.registration-form__social__link:visited,
-.registration-form__social__link:active{
-    font-size: 	0.875rem;
-    position: relative;
-    padding: 15px;
-    width: 45%;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-}
-.registration-form__social__link:hover,
-.registration-form__social__link:focus{
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)  
-}
-.registration-form__social__link__pic{
-    width: 20px;
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.registration-form__social__link--facebook{
-    background: #255A9B 
-}
-.registration-form__social__link--linkedin{
-    background: #0076B6 
 }
 
 .registration-form__separator{
@@ -263,7 +233,7 @@ body{
     .registration-section__pic{
         width: 20%;
     }
-    .registration-section__pic__logo{
+    .registration-section__logo{
         width: 70%;
         left:50%;
         transform: translateX(-50%) ;
@@ -282,7 +252,7 @@ body{
         width: 100%;
         height: 150px;
     }
-    .registration-section__pic__logo{
+    .registration-section__logo{
         width: 50%;
         left:50%;
         top:50%;
@@ -294,17 +264,7 @@ body{
     }
 }
 @media (max-width: 425px) { 
-    .registration-form__social{
-        flex-wrap: wrap;
-        margin-bottom: 0px;
-    }   
-    .registration-form__social__link,
-    .registration-form__social__link:link,
-    .registration-form__social__link:visited,
-    .registration-form__social__link:active{
-        width: 100%;
-        margin: 10px 0;
-    }
+
     .registration-form__separator{
         margin: 30px 0 40px;
     }
