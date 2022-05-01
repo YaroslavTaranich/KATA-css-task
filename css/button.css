@@ -1,0 +1,27 @@
+.btn-primary{
+    width: 245px;
+    height: 45px;
+    background-image: linear-gradient(90deg, #3698FB 0%,  #3698FB 50%, #1887f6 50% );
+    background-size: 200%;
+    background-position: 0%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color:#FFF;
+    transition: all .5s ease-in;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-position: 100%;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+}
+.btn-primary:active{
+    transform: translateY(1px);
+}
+
+@media (max-width: 900px) {
+    .btn-primary{
+        width: 100%;
+    }
+}

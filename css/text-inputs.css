@@ -1,0 +1,42 @@
+
+
+.text-input__label{
+    width: 45%;
+    /* display: block; */
+    position: relative;
+}   
+.text-input__input{
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #EEE;
+    height: 60px;
+    position: absolute;
+    padding: 22px 0 0 10px;
+    transition: all .3s;
+}
+
+.text-input__name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #96A5B1;
+    z-index: 10;
+}
+.text-input__input:focus {
+    border-left: 1px solid #3698FB;
+}
+
+
+@media (max-width: 600px) { 
+
+
+    .text-input__label{
+        width: 100%;
+        height: 60px;
+    }
+    .text-input__label:last-child {
+        margin-top: 20px;
+    }
+
+}

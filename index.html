@@ -39,84 +39,75 @@
                 <div class="registration-form__separator">or</div>
 
                 <div class="registration-form__inputs">
-                    <div class="registration-form__inputs-group">
-                        <input name="email" type="email" id="email" class="registration-form__input"/>
-                        <label for="email" class="registration-form__input__label">
-                            Email                            
+
+                        <label for="email" class="text-input__label">
+                            <span class="text-input__name">Email</span> 
+                            <input name="email" type="email" id="email" class="text-input__input"/>                           
                         </label>
-                    </div>
-                    <div class="registration-form__inputs-group">
-                        <input name="tel" type="tel" id="phone" class="registration-form__input"/>
-                        <label for="phone" class="registration-form__input__label">
-                            Phone
+                
+                        <label for="phone" class="text-input__label">
+                            <span class="text-input__name">Phone</span>
+                            <input name="tel" type="tel" id="phone" class="text-input__input"/>
                         </label>
-                    </div>
+                    
                 </div>
                 <h2 class="registration-form__title registration-form__title--sub">What type of investor are you?</h2>
                 <p class="registration-form__description">Select the type of investor you are below.</p>
 
-                <div class="registration-form__radio-inputs">
-                    <div class="registration-form__radio-input-group">
-                        <label for="individual" class="registration-form__radio-input__label">
-                            
+                <div class="radio-inputs">
+
+                        <label class="radio-input__label">
                             <input 
                                 checked     
                                 type="radio" 
-                                name="investing-type" 
-                                id="individual" 
+                                name="investing-type"  
                                 value="individual" 
-                                class="registration-form__radio-input"/>
-                            <span class="registration-form__radio-input__span">Individual</span>
+                                class="radio-input__input"/>
+                            <span class="radio-input__span">Individual</span>
+                            <span class="radio-input__info-simbol">&#128712;</span>
                         </label>
-                    </div>
-                    <div class="registration-form__radio-input-group">
-                        <label for="business" class="registration-form__radio-input__label">
-                            
+                    
+                        <label class="radio-input__label">
                             <input 
                                 type="radio" 
                                 name="investing-type" 
-                                id="business" 
                                 value="business" 
-                                class="registration-form__radio-input"/>
-                            <span class="registration-form__radio-input__span">Business</span>
+                                class="radio-input__input"/>
+                            <span class="radio-input__span">Business</span>
+                            <span class="radio-input__info-simbol">&#128712;</span>
                         </label>
-                    </div>
-                    <div class="registration-form__radio-input-group">
-                        <label for="ira" class="registration-form__radio-input__label">
-                            
+                    
+                        <label class="radio-input__label">
                             <input 
                                 type="radio" 
-                                name="investing-type" 
-                                id="ira" 
+                                name="investing-type"                             
                                 value="ira" 
-                                class="registration-form__radio-input"/>
-                            <span class="registration-form__radio-input__span">IRA</span>
+                                class="radio-input__input"/>
+                            <span class="radio-input__span">IRA</span>
+                            <span class="radio-input__info-simbol">&#128712;</span>
                         </label>
-                    </div>
-                    <div class="registration-form__radio-input-group">
-                        <label for="trust" class="registration-form__radio-input__label">
-                            
+                    
+                        <label class="radio-input__label">
                             <input 
                                 type="radio" 
                                 name="investing-type" 
-                                id="trust" 
                                 value="trust" 
-                                class="registration-form__radio-input"/>
-                            <span class="registration-form__radio-input__span">Trust</span>
+                                class="radio-input__input"/>
+                            <span class="radio-input__span">Trust</span>
+                            <span class="radio-input__info-simbol">&#128712;</span>
                         </label>
-                    </div>
+                    
                 </div>
-                <div class="registration-form__radio-info">
+                <div class="radio-input__info">
                     I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenent in common.
                 </div>
 
                 <div class="registration-form__checkbox-input-group">
-                    <label for="notifications" class="registration-form__checkbox-input__label">
+                    <label class="registration-form__checkbox-input__label">
                         
                         <input 
                             type="checkbox" 
                             name="notifications"  
-                            id="notifications" 
                             value="notifications" 
                             class="registration-form__checkbox-input"/>
                         <span class="registration-form__checkbox-input__span">I argee to the terms and receiving notifications from iintoo 
